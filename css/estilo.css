@@ -96,6 +96,7 @@ body
     background-color: var(--blanco);
     padding: 20px;
     margin: 20px auto;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
 }
 
 .pantalla1 section header + div{
@@ -119,8 +120,30 @@ body
 .pantalla1 section header + div details summary + form input{
     padding: 10px;
     margin-right: 10px;
-    border-radius: 10px;
-    border-top:2px;
+    
+    /*border-top:2px;*/
+}
+.pantalla1 section header + div details summary + form button,
+.pantalla1 section header + div details + div button
+{
+    box-sizing: content-box;
+    background-color: var(--gris);
+    padding: 10px 20px;
+    margin: 0px;
+    border:0px;
+}
+
+.pantalla1 section header + div details summary + form button:hover
+{
+    background-color: var(--gisObscuro);
+    color: var(--blanco);
+    margin: 0px;
+}
+
+.pantalla1 section header + div details + div
+{
+    margin: 0 auto;
+    width: 100px;
 }
 /*==========================================================================*/
 /*RESPONSIVE*/
