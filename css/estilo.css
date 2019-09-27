@@ -110,5 +110,17 @@ body
 .pantalla1 section header + div details summary + form{
     padding-bottom: 20px;
 }
+
+.pantalla1 section header + div details summary + form label{
+    padding-bottom: 20px;
+    margin-right: 10px;
+}
+
+.pantalla1 section header + div details summary + form input{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border-top:2px;
+}
 /*==========================================================================*/
 /*RESPONSIVE*/
