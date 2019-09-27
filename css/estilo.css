@@ -127,11 +127,12 @@ section.pantalla1  header + div details summary + form input{
 section.pantalla1  header + div details summary + form button,
 section.pantalla1 header + div details + div button
 {
-    box-sizing: content-box;
+    box-sizing: border-box;
     background-color: var(--gris);
     padding: 10px 20px;
     margin: 0px;
     border:0px;
+    cursor: pointer;
 }
 
 section.pantalla1 header + div details summary + form button:hover,
@@ -147,6 +148,22 @@ section.pantalla1 header + div details + div
     margin: 0 auto;
     width: 100px;
 }
+
+section.pantalla1 header + div + div form fieldset table
+{
+    width: 100%;
+    text-align: center;
+}
+
+section.pantalla1 header + div + div form fieldset table tr > td h3
+{
+    background-color: green;
+}
+
+form fieldset table tr > td h3
+{
+    background-color: red;
+}
 /*==========================================================================*/
 /*RESPONSIVE*/
 @media screen and (min-width: 401px) and (max-width: 720px) {
@@ -157,6 +174,7 @@ section.pantalla1 header + div details + div
     }
     section.pantalla1  header + div details summary + form input{
         width: 100%;
+        box-sizing: border-box;
     }
 }
 
