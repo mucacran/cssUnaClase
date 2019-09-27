@@ -155,6 +155,9 @@ section.pantalla1 header + div details + div
         margin-bottom: 20px;
         display: block;
     }
+    section.pantalla1  header + div details summary + form input{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 721px) and (max-width: 1280px) {
