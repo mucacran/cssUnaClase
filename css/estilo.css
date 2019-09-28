@@ -188,6 +188,16 @@ section.pantalla1 header + div + div form fieldset table tr + tr > td
     }
 }
 @media screen and (min-width: 401px) and (max-width: 720px) {
+    body
+    {
+        width: 100%;
+    }
+
+    section.pantalla1  > div
+    {
+        box-sizing: border-box;
+        width: 100%;        
+    }
     section.pantalla1 header + div + div form fieldset table tr + tr td input[type="button"]
     {
         width: 110px;
