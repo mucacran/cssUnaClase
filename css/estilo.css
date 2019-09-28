@@ -55,7 +55,7 @@ table {
 }
 
 :root {
-    --gris: #ddd;
+    --gris: #e8e8e8;
     --blanco: #ffffff;
     --gisObscuro: #5b5b5f;
 }
@@ -75,7 +75,8 @@ body
 {
     margin: 0px auto;
     width: 80%;
-    background-color: var(--gris)
+    
+    background-color: var(--gris);
 }
 
 
@@ -173,12 +174,24 @@ section.pantalla1 header + div + div form fieldset table tr + tr > td
 /*==========================================================================*/
 /*RESPONSIVE*/
 @media screen and (min-width: 300px) and (max-width: 400px) {
+    body
+    {
+        width: 100%;
+    }
+    section.pantalla1 header + div + div form fieldset table tr + tr td input[type="button"]
+    {
+        width: 110px;
+    }
     section.pantalla1  header + div details summary + form input{
         width: 100%;
         box-sizing: border-box;
     }
 }
 @media screen and (min-width: 401px) and (max-width: 720px) {
+    section.pantalla1 header + div + div form fieldset table tr + tr td input[type="button"]
+    {
+        width: 110px;
+    }
     section.pantalla1 header + div details form div{
         width: auto;
         margin-bottom: 20px;
