@@ -3,26 +3,6 @@
     Estilos como padre la etiqueta body
 */
 /*==========================================================================*/
-/* Fuentes de google font*/
-@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
-
-:root {
-    --gris: #ddd;
-    --blanco: #ffffff;
-    --gisObscuro: #5b5b5f;
-}
-
-*
-{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Didact Gothic', sans-serif;
-    font-size: 18px;
-    color: var(--gisObscuro);
-}
-
-/*==========================================================================*/
 /*reset css */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -67,6 +47,26 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+/*==========================================================================*/
+/* Fuentes de google font*/
+@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
+
+:root {
+    --gris: #ddd;
+    --blanco: #ffffff;
+    --gisObscuro: #5b5b5f;
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 18px;
+    color: var(--gisObscuro);
 }
 
 /*==========================================================================*/
