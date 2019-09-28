@@ -3,6 +3,11 @@
     Estilos como padre la etiqueta body
 */
 /*==========================================================================*/
+/* Fuentes de google font*/
+@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
+
+/*==========================================================================*/
 /*reset css */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -49,11 +54,6 @@ table {
 	border-spacing: 0;
 }
 
-/*==========================================================================*/
-/* Fuentes de google font*/
-@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
-
 :root {
     --gris: #ddd;
     --blanco: #ffffff;
@@ -76,13 +76,8 @@ body
     margin: 0px auto;
     width: 80%;
     background-color: var(--gris)
-    
 }
 
-.pantalla1
-{
-    
-}
 
 section.pantalla1 h1
 {
@@ -124,8 +119,9 @@ section.pantalla1  header + div details summary + form input{
     padding: 10px;
     margin-right: 10px;
 }
-section.pantalla1  header + div details summary + form button,
-section.pantalla1 header + div details + div button
+section.pantalla1 header + div details summary + form button,
+section.pantalla1 header + div details + div button,
+section.pantalla1 header + div + div form fieldset table tr + tr td input[type="button"]
 {
     box-sizing: border-box;
     background-color: var(--gris);
@@ -136,7 +132,8 @@ section.pantalla1 header + div details + div button
 }
 
 section.pantalla1 header + div details summary + form button:hover,
-section.pantalla1 header + div details + div button:hover
+section.pantalla1 header + div details + div button:hover,
+section.pantalla1 header + div + div form fieldset table tr + tr td input[type="button"]:hover
 {
     background-color: var(--gisObscuro);
     color: var(--blanco);
@@ -155,17 +152,32 @@ section.pantalla1 header + div + div form fieldset table
     text-align: center;
 }
 
-section.pantalla1 header + div + div form fieldset table tr > td h3
+section.pantalla1 header + div + div form fieldset table tr > td
 {
-    background-color: green;
+    border: 1px solid var(--gisObscuro);
 }
 
-form fieldset table tr > td h3
+section.pantalla1 header + div + div form fieldset table tr > td h3
 {
-    background-color: red;
+    background-color: var(--gisObscuro);
+    color: var(--blanco);
+    padding: 10px;
 }
+
+section.pantalla1 header + div + div form fieldset table tr + tr > td 
+{
+    border: 1px solid var(--gisObscuro);
+    padding: 10px;
+}
+
 /*==========================================================================*/
 /*RESPONSIVE*/
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    section.pantalla1  header + div details summary + form input{
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
 @media screen and (min-width: 401px) and (max-width: 720px) {
     section.pantalla1 header + div details form div{
         width: auto;
