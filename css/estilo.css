@@ -1,0 +1,183 @@
+/*
+    Editado por: Sergio Bravo
+    Estilos como padre la etiqueta body
+*/
+/*==========================================================================*/
+/* Fuentes de google font*/
+@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
+
+:root {
+    --gris: #ddd;
+    --blanco: #ffffff;
+    --gisObscuro: #5b5b5f;
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 18px;
+    color: var(--gisObscuro);
+}
+
+/*==========================================================================*/
+/*reset css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/*font: inherit;*/
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*==========================================================================*/
+/*mucacran*/
+body
+{
+    margin: 0px auto;
+    width: 80%;
+    background-color: var(--gris)
+    
+}
+
+.pantalla1
+{
+    
+}
+
+section.pantalla1 h1
+{
+    margin: 100px 0;
+    margin-bottom: 50px;
+    font-family: 'Patua One', cursive;
+    font-size: 2em;
+    color: var(--gisObscuro);
+}
+
+section.pantalla1  > div
+{
+    background-color: var(--blanco);
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+}
+
+section.pantalla1 header + div details form div{
+    width: auto;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+section.pantalla1 header + div details summary {
+   padding-bottom: 20px;
+   font-size: 20px;
+}
+
+section.pantalla1 header + div details summary + form{
+    padding-bottom: 20px;
+}
+
+section.pantalla1  header + div details summary + form label{
+    margin-right: 10px;
+}
+
+section.pantalla1  header + div details summary + form input{
+    padding: 10px;
+    margin-right: 10px;
+}
+section.pantalla1  header + div details summary + form button,
+section.pantalla1 header + div details + div button
+{
+    box-sizing: border-box;
+    background-color: var(--gris);
+    padding: 10px 20px;
+    margin: 0px;
+    border:0px;
+    cursor: pointer;
+}
+
+section.pantalla1 header + div details summary + form button:hover,
+section.pantalla1 header + div details + div button:hover
+{
+    background-color: var(--gisObscuro);
+    color: var(--blanco);
+    margin: 0px;
+}
+
+section.pantalla1 header + div details + div
+{
+    margin: 0 auto;
+    width: 100px;
+}
+
+section.pantalla1 header + div + div form fieldset table
+{
+    width: 100%;
+    text-align: center;
+}
+
+section.pantalla1 header + div + div form fieldset table tr > td h3
+{
+    background-color: green;
+}
+
+form fieldset table tr > td h3
+{
+    background-color: red;
+}
+/*==========================================================================*/
+/*RESPONSIVE*/
+@media screen and (min-width: 401px) and (max-width: 720px) {
+    section.pantalla1 header + div details form div{
+        width: auto;
+        margin-bottom: 20px;
+        display: block;
+    }
+    section.pantalla1  header + div details summary + form input{
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1280px) {
+    
+}

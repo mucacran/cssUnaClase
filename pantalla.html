@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es-EC">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title></title>
+
+<!--llamada a css-->
+<link rel="stylesheet" href="css/estilo.css">
+
+</head>
+<body >
+	<section class="pantalla1">
+		<!-- Contenedor principal - Mantenimiento -->
+		<header>
+			<!-- Contenedor detitulo -->
+			<h1>Titulo de la pantalla</h1>
+		</header>
+		<div >
+			<!-- Contenedor de los filtros -->
+			<details>
+				<summary>Filtros de consulta</summary>
+				<!-- Contenedor de los campos -->
+				<form>
+					<div>
+						<label> Campo1 </label>
+						<input type='text'>
+					</div>
+					<div>
+						<label>Campo2 </label>
+						<input type='text'>
+					</div>
+					<div>
+						<button>Buscar</button>
+					</div>
+				</form>
+			</details>
+			<div>
+				<!-- Contenedor de los botones -->
+				<button>Agregar</button>
+			</div>
+		</div>
+
+		<div>
+			<!-- Contenedor del detalle de la pantalla -->
+			<form>
+				<fieldset>
+					<table>
+						<tr>
+							<td><h3>codigo</h3></td>
+							<td><h3>descripcion</h3></td>
+							<td><h3>Acci�n</h3></td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>1A</td>
+							<td>
+								<div>
+									<!-- Contenedor de los botones de las acciones -->
+									<input type='button' value='Modificar'>
+									<input type='button' value='Elimnar'>
+									<input type='button' value='Consultar'>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>1B</td>
+							<td>
+								<div>
+									<!-- Contenedor de los botones de las acciones -->
+									<input type='button' value='Modificar'>
+									<input type='button' value='Elimnar'>
+									<input type='button' value='Consultar'>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>2Affff</td>
+							<td>
+								<div>
+									<!-- Contenedor de los botones de las acciones -->
+									<input type='button' value='Modificar'> 
+									<input type='button' value='Elimnar'> 
+									<input type='button' value='Consultar'>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>2B</td>
+							<td>
+								<div>
+									<!-- Contenedor de los botones de las acciones -->
+									<input type='button' value='Modificar'>
+									<input type='button' value='Elimnar'>
+									<input type='button' value='Consultar'>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>7</td>
+							<td>3A</td>
+							<td>
+								<div>
+									<!-- Contenedor de los botones de las acciones -->
+									<input type='button' value='Modificar'>
+									<input type='button' value='Elimnar'>
+									<input type='button' value='Consultar'>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</fieldset>
+			</form>
+		</div>
+
+		<div>
+			<!-- Contenedor del pagineo -->
+			<button onclick='paginacion(1,"claseCurso","sn1217445810");'>1</button>
+			<button onclick='paginacion(2,"claseCurso","sn1217445810");'>2</button>
+			<button onclick='paginacion(3,"claseCurso","sn1217445810");'>3</button>
+		</div>
+		<div>
+			<!-- Contenedor de los mensajes -->
+			Mensajes del sistema
+		</div>
+	</section>
+</body>
+</html>
