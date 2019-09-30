@@ -218,6 +218,59 @@ section.pantalla1 > .botonesGrabarYCerrar
 
 }
 
+/* cssPantallaDetalle detallePantalla.html*/
+section.pantalla1 div form .fotoDescripcion
+{
+    display: flex;
+    align-items: center;
+}
+
+/* ******ancho de pantalla ++++++++*/
+section.pantalla1 div form .fotoDescripcion figure
+{
+    width: 30%;
+}
+section.pantalla1 div form .fotoDescripcion fieldset
+{
+    width: 70%;
+}
+/* ******FIN ancho de pantalla ++++++++*/
+
+section.pantalla1 div form .fotoDescripcion img
+{
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+}
+
+section.pantalla1 div form .fotoDescripcion img,
+section.pantalla1 div form .fotoDescripcion figcaption
+{
+    text-align: center;
+}
+
+section.pantalla1 div form .fotoDescripcion fieldset > div
+{
+    margin-bottom: 20px;
+    /* box-sizing: border-box; */
+}
+
+section.pantalla1 div form .fotoDescripcion fieldset > div input[type="text"],
+section.pantalla1 div form .fotoDescripcion fieldset > div input[type="date"],
+section.pantalla1 div form .fotoDescripcion fieldset > div input[type="email"],
+section.pantalla1 div form .fotoDescripcion fieldset > div select
+{
+    padding: 10px;
+    width: 80%;
+    
+}
+
+section.pantalla1 div form .fotoDescripcion fieldset > div label
+{
+    box-sizing: border-box;
+    width: 100px;
+    display: inline-block;
+}
 /*==========================================================================*/
 /*RESPONSIVE*/
 @media screen and (min-width: 300px) and (max-width: 400px) {
@@ -232,6 +285,14 @@ section.pantalla1 > .botonesGrabarYCerrar
     section.pantalla1  header + div details summary + form input{
         width: 100%;
         box-sizing: border-box;
+    }
+    section.pantalla1 div form .fotoDescripcion figure
+    {
+        width: 100%;
+    }
+    section.pantalla1 div form .fotoDescripcion fieldset
+    {
+        width: 100%;
     }
 }
 @media screen and (min-width: 401px) and (max-width: 720px) {
@@ -262,6 +323,11 @@ section.pantalla1 > .botonesGrabarYCerrar
     section.pantalla1  header + div details summary + form input{
         width: 100%;
         box-sizing: border-box;
+    }
+    section.pantalla1 div form .fotoDescripcion
+    {
+        display: inline;
+        align-items: none;
     }
 }
 
