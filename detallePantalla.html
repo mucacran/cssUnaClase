@@ -18,46 +18,57 @@
 			<!-- Contenedor de campos -->
 			<form>
                 <fieldset>
-				<figure>
-					<img src='silueta.jpg'>
-					<figcaption>Foto</figcaption>
-				</figure>
-
-				<label>Codigo</label>
-				<input type='text' value='3' disabled>
-				<label>Descripción</label>
-				<input type='text' name='descripcion' value='2Affff'> <label>Sección</label>
-				
-				<select>
-					<option>Seccion 1</option>
-					<option>Seccion 2</option>
-					<option>Seccion 3</option>
-				</select>
-				
-				<label>Fecha</label>
-				<input type='date'>
-				<label>Correo</label>
-				<input type='email'>
-				<label>Jornada</label>
-				<input type='radio'> <input type='radio'> <input
-					type='radio'> <label>Extras</label> <input type='checkbox'>
-				<input type='checkbox'> <input type='hidden'
-					name='sessionName' value='sn1217445810'> <input
-					type='hidden' name='codigo' value='3'>
+					<figure>
+						<img src='silueta.jpg'>
+						<figcaption>Foto</figcaption>
+					</figure>
+					<div>
+						<label>Codigo</label>
+						<input type='text' value='3' disabled>
+					</div>
+					<div>
+						<label>Descripción</label>
+						<input type='text' name='descripcion' value='2Affff'>
+					</div>
+					<div>
+						<label>Sección</label>
+						<select>
+							<option>Seccion 1</option>
+							<option>Seccion 2</option>
+							<option>Seccion 3</option>
+						</select>
+					</div>
+					<div>
+						<label>Fecha</label>
+						<input type='date'>
+					</div>
+					<div>
+						<label>Correo</label>
+						<input type='email'>
+					</div>
+					<div>
+						<label>Jornada</label>
+						<input type='radio'>
+						<input type='radio'>
+						<input type='radio'>
+					</div>
+					<div>
+						<label>Extras</label>
+						<input type='checkbox'>
+						<input type='checkbox'>
+						<input type='hidden' name='sessionName' value='sn1217445810'>
+						<input type='hidden' name='codigo' value='3'>
+					</div>
                 </fieldset>
 			</form>
 		</div>
-		<div>
-			<!-- 
-				Contenedor de botones
-			 -->
+		<div class="botonesGrabarYCerrar">
+			<!-- Contenedor de botones -->
 			<button>Grabar</button>
 			<button>Cerrar</button>
 		</div>
-		<div>
-			<!-- 
-			Contenedor de los mensajes
-		 -->
+		<div class="mensaje mensajeError">
+			<!-- Contenedor de los mensajes -->
 		 	Mensaje del sistema
 		</div>
 	</section>

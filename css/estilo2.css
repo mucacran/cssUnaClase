@@ -122,7 +122,8 @@ section.pantalla1  header + div details summary + form input{
 section.pantalla1 header + div details summary + form button,
 section.pantalla1 header + div details + div button,
 section.pantalla1 header + div + div form fieldset table tr + tr td input[type="button"],
-section.pantalla1 header + div + div + div button
+section.pantalla1 header + div + div + div button,
+section.pantalla1 > .botonesGrabarYCerrar button
 {
     box-sizing: border-box;
     background-color: var(--gris);
@@ -135,7 +136,8 @@ section.pantalla1 header + div + div + div button
 section.pantalla1 header + div details summary + form button:hover,
 section.pantalla1 header + div details + div button:hover,
 section.pantalla1 header + div + div form fieldset table tr + tr td input[type="button"]:hover,
-section.pantalla1 header + div + div + div button:hover
+section.pantalla1 header + div + div + div button:hover,
+section.pantalla1 > .botonesGrabarYCerrar button:hover
 {
     background-color: var(--gisObscuro);
     color: var(--blanco);
@@ -172,7 +174,8 @@ section.pantalla1 header + div + div form fieldset table tr + tr > td
     padding: 10px;
 }
 
-section.pantalla1 header + div + div + div
+section.pantalla1 header + div + div + div,
+section.pantalla1 > .botonesGrabarYCerrar
 {
     display: flex;
     justify-content: center;
